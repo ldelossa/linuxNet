@@ -1,0 +1,17 @@
+{
+    "name": "simple topology",
+    "networks": [
+        {
+            "name": "net1",
+            "prefix": "192.168.1.0/24",
+            "adjacencies": [{
+                "name": "net2"
+            }]
+        },
+        {
+            "name": "net2",
+            "prefix": "192.168.2.0/24",
+            "adjacencies": []
+        }
+    ]
+}
